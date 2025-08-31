@@ -19,10 +19,10 @@ void add_data(int new_data){
     if(data_size == data_count){
         data_size += BUCKET_SIZE;
         data = realloc(data, data_size*sizeof(int)); /* now the data blocks size is increased by 5*/
-        *(data+data_count) = new_data; /* dereferencing and as same as --> data[data_count] = new_data */
-
+        *(data+data_count) = new_data; /* dereferencing and as same as --> data[data_count] = new_data */ /*storing the data*/
     }
 
+    data_count++; /* after adding the data the data count must increase*/
 }
 
 int main(void){
@@ -36,6 +36,9 @@ int main(void){
     for (i=0; i < 23; i++){
         add_data(i);
     }
+
+    return 0;
+
 }
 
 
