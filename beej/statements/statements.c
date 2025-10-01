@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int i = 0;
+    int i = 10;
+    int *p = &i;
+    const char *y = "hello";
 
     /*if (i > 10) {
         printf("i is bigger than 10");
@@ -15,5 +17,8 @@ int main() {
         printf("i is now %d \n", i);
         i++;
     }   
+    printf ("%d\n", p);
+    printf ("%d\n", *p);
+    printf("%s", y);
     
 }
