@@ -1,0 +1,5 @@
+User Isildur name
+= carrier frequency
+>> ohmega/2pi = signal frequency
+>> should be able to go from formula to plots and from plot to formula
+>> for the question Pv/Ps (average power divided by power of side band)
