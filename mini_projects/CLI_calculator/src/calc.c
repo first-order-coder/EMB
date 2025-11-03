@@ -20,7 +20,7 @@ bool parse_op(const char *s, op_t *out) {
         return false;
     }
     if (streq(s, "add")){
-        *out = OP_ADD; // *out is a pointer to an op_t (enum type)
+        *out = OP_ADD; // *out is a pointer to an op_t (enum type) so *out is set to pp == add now which means --> op_t.OP_ADD over there.
         return true; 
     } //recognize "add"
     if (streq(s, "sub")) { *out = OP_SUB; return true; } // the op(operation) now becomes sub

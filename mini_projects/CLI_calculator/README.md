@@ -1,1 +1,0 @@
-include/calc.h --> declares the operations needed (add, sub, mul, div) --> src/calc.c implements the functions declared in calc.h

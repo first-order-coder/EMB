@@ -5,7 +5,7 @@
 
 // the operations calculator will support
 typedef enum {  // creates named integer constants
-    OP_ADD, // by default firsnt name is assigned 0 and then next one 1, after 2, etc
+    OP_ADD, // by default first name is assigned 0 and then next one 1, after 2, etc
     OP_SUB,
     OP_MUL,
     OP_DIV,

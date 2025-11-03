@@ -1,0 +1,8 @@
+> In calc.h we declare functions, and also declared variables using {extern} keyword so those variables and functions could be access from other files.
+> Used typedf to create named integer constants that increases in index.
+> instead of saying enum what_ever_the_name is we can use typedef to do that.
+> When we use {extern} to decalare a variable, we are able to use that variable decalration in another file to assign a value to it. 
+> {static} keyword means its private to that file.
+> {strcmp(strin_a,string_b)} comapare the string down to the end. will return zero if true.
+>  Op variable is where we store the parsed operation (add/sub/mul/div).
+Its type is op_t(enum). 
