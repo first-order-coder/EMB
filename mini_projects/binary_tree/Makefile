@@ -1,7 +1,7 @@
 
 CC=gcc
 CFLAGS=-g -Wall
-BINS=treexample
+BINS=tree
 
 all: $(BINS)
 
