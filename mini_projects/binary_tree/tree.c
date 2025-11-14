@@ -37,7 +37,7 @@ void printtree_recursive(treenode *root, int level) {
     printf("left\n");
 
     printtree_recursive(root->left, level+1);
-    printtabs(level);
+    printtabs(level); 
     printf("right\n");
 
     printtree_recursive(root->right, level+1);

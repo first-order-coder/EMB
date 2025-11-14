@@ -6,3 +6,9 @@
 > {strcmp(strin_a,string_b)} comapare the string down to the end. will return zero if true.
 >  Op variable is where we store the parsed operation (add/sub/mul/div).
 Its type is op_t(enum). 
+
+> nano file.txt -> to edit a file
+> mv file.txt ./directory_u_need -> to move a file
+> rm -i file.txt -> to delete a file with permission
+> wget "url" -> to download a file
+
