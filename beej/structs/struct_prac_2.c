@@ -9,9 +9,15 @@ typedef struct point_loc{
 // the professional version of this 
 
 Locations point_add (Locations p1, Locations p2){
+<<<<<<< HEAD
     Locations result = {(p1.x + p2.x), (p1.y + p2.y)}; //
     // result.x = p1.x + p2.x;
     // result.y = p1.y + p2.y;
+=======
+    Locations result;
+    result.x = p1.x + p2.x;
+    result.y = p1.y + p2.y;
+>>>>>>> origin/main
     return result;
 }; 
 
