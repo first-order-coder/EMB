@@ -1,0 +1,11 @@
+> we cant put a treenode inside another treennode that would make the struct infinitely large. 
+
+> Instead by using pointer to point to other nodes we can save space. We keeep the nodes separate just use pointers to show how they are connected.
+
+> a program manipulates data, the data is stored somewhere in the memory, to access that memory we need a reference to it, thats what variables are. But sometimes we need to manipulate the memory at that location so we use pointers.
+
+> pointers are variables that contain the location information.
+    >>  " Just like Amazon will ask for your house address so that it can deliver your package, you don't send your house to Amazon, only its location information. "
+
+> an index in an array is a pointer.
+> Trees are built by linking nodes via addresses.
